@@ -8,3 +8,4 @@ end
 use Rack::MethodOverride
 
 run ApplicationController
+# use Rack::MethodOverride /n run ApplicationController
