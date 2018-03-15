@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Blogs</h1>
+    <%if @posts%>
+      <% @posts.each do |post|%>
+        <h3><%= post.name%></h3>
+        <h4><%= post.content%></h4>
+      <%end%>
+    <%end%>
+  </body>
+</html>
